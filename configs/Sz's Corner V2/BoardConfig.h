@@ -103,4 +103,9 @@
 #define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
 #define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESSB
 
+// Additional Button Support
+#define GPIO_PIN_22 GpioAction::BUTTON_PRESS_UP
+#define GPIO_PIN_03 GpioAction::BUTTON_PRESS_L3
+#define GPIO_PIN_21 GpioAction::BUTTON_PRESS_A2
+
 #endif
