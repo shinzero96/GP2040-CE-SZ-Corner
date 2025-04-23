@@ -9,7 +9,7 @@
 #include "enums.pb.h"
 #include "class/hid/hid.h"
 
-#define BOARD_CONFIG_LABEL "SZ_Corner_Flatbox_v2"
+#define BOARD_CONFIG_LABEL "0.7.11_SZ_Corner_Flatbox_v2"
 
 // Main pin mapping Configuration
 //                                                  // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |
@@ -177,7 +177,7 @@
 
 // Additional Button Support
 #define GPIO_PIN_22 GpioAction::BUTTON_PRESS_UP
-#define GPIO_PIN_03 GpioAction::BUTTON_PRESS_R3
+#define GPIO_PIN_03 GpioAction::BUTTON_PRESS_L3
 #define GPIO_PIN_21 GpioAction::BUTTON_PRESS_A2
 
 #endif
